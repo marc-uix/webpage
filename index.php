@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Code</title>
-
+    <script src="js/app.js"></script> 
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -13,9 +13,9 @@
     <?php
         echo "<p>PHP funcionando correctamente</p>";
     ?>
+    <a href="register.php">
+    <button id="btn">registro</button>
+    </a>
 
-    <button id="btn">Click</button>
-
-    <script src="js/app.js"></script>
 </body>
 </html>
