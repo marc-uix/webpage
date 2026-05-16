@@ -14,8 +14,10 @@
         echo "<p>PHP funcionando correctamente</p>";
     ?>
     <a href="register.php">
-    <button id="btn">registro</button>
+        <button id="btn">registro</button>
     </a>
-
+    <a href="login.php">
+        <button id="btn2">login</button>
+    </a>
 </body>
 </html>
