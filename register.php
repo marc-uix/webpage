@@ -34,7 +34,7 @@ if(mysqli_query($conn,$sql)){
 <body>
 <h1>Registro</h1>
 
-<p>Por favor proceda a registrarse:</p>
+<p>Por favor proceda a registrarse bien</p>
 
 <form action="" method="POST">
     <input type="text" name="username" placeholder="usuario" required>
