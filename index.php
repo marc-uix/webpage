@@ -2,22 +2,37 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Code</title>
-    <script src="js/app.js"></script> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Proyecto</title>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <h1>Practicas PHP y MySQL</h1>
+    <header>
+        <div class="container nav">
+            <h1 class="logo">MiProyecto</h1>
 
-    <?php
-        echo "<p>PHP funcionando correctamente</p>";
-    ?>
-    <a href="register.php">
-        <button id="btn">registro</button>
-    </a>
-    <a href="login.php">
-        <button id="btn2">login</button>
-    </a>
+            <nav class="nav-links">
+                <a href="login.php" class ="btn">Login</a>
+                <a href="register.php" class="btn">Registro</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Primeras pruebas bases de datos</h2>
+
+            <p>
+                Proyecto hecho con PHP, MySQL y diseño web.
+            </p>
+
+            <a href="register.php" class="hero-btn">
+                Empezar
+            </a>
+        </div>
+    </section>
+
 </body>
 </html>

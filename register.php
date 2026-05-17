@@ -32,18 +32,25 @@ if(mysqli_query($conn,$sql)){
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<h1>Registro</h1>
+<section class="register-container">
+    <div class="register-card">
+        <h1>Registro</h1>
+        <p>
+            Ingresá tus datos para registrarte
+        </p> 
 
-<p>Por favor proceda a registrarse bien</p>
+<form action="" method="POST" class="register-form">
 
-<form action="" method="POST">
     <input type="text" name="username" placeholder="usuario" required>
-    <br><br>
+  
     <input type="email" name="email" placeholder="Email" required>
-    <br><br>
+    
     <input type="password" name="password" placeholder="password" required>
-    <br><br>
-    <button type="submit">Registrarse</button>
+  
+    <button type="submit" class="hero-btn">Registrarse</button>
+
 </form>
+</div>
+</section>
 </body>
 </html>
