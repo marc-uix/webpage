@@ -179,14 +179,14 @@ header{
 }
 .header-container{
     display: flex;
-    flex-direction: column;
     align-items: center;
-
+    width: 100%;
     padding: 20px 0;
     border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
 .header-top{
+    flex: 1;
     text-align: center;
     margin-bottom: 15px;
 }
@@ -204,6 +204,7 @@ header{
 .nav-links{
     display: flex;
     gap: 15px;
+    flex-shrink: 0;
 }
 
 .nav-links a{
@@ -257,4 +258,10 @@ padding: 40px 20px;
     border-top: 1px solid rgba(255,255,255,0.1);
 
     margin-top: auto;
+}
+.profile{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    flex-shrink: 0;
 }

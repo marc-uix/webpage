@@ -34,25 +34,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta charset="UTF-8">
     <title>web-page-main</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="app.js"></script>
+    <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
+    <script src="js/app.js"></script>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3X8JL2V"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+ 
     <header class="header-container">
-
+         <div class="profile">
+        <a href="profile.php" class="btn">Perfil</a>
+    </div>
     <div class="header-top">
         <h1 class="title">impresoras 3d</h1>
         <p class="logo">Mi Proyecto</p>
     </div>
-
     <nav class="nav-links">
         <a href="index.php" class="btn">Inicio</a>
         <a href="login.php" class="btn">Login</a>
-        <a href="register.php" class="btn">Registro</a>
+        <a href="register.php" class="btn">Registro</a>     
     </nav>
     </header>
 <section class="main-content">
