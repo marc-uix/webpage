@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -19,9 +20,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Proyecto</title>
+    <title>MARKBOX</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -30,8 +35,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
     <header>
         <div class="container nav">
-            <h1 class="logo">MiProyecto</h1>
-
+            <h1 class="logo">MARKBOX</h1>
+    
             <nav class="nav-links">
                 <a href="login.php" class ="btn">Login</a>
                 <a href="register.php" class="btn">Registro</a>
@@ -41,14 +46,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <section class="hero">
         <div class="container">
-            <h2>Primeras pruebas bases de datos</h2>
+            
 
-            <p>
-                Proyecto hecho con PHP, MySQL y diseño web.
-            </p>
-
-            <a href="register.php" class="hero-btn">
-                Empezar
+            <a href="login.php" class="hero-btn">
+                INGRESAR
             </a>
         </div>
     </section>

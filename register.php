@@ -45,6 +45,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta charset ="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -58,7 +61,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             Ingresá tus datos para registrarte
         </p> 
 
-<form action="" method="POST" class="register-form">
+<form action="" method="POST" class="register-form" autocomplete="off">
 
     <input type="text" name="username" placeholder="usuario" required>
   

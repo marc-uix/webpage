@@ -56,8 +56,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <title>Login</title>
 
-    <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -75,7 +78,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 Ingresá tus datos para continuar
             </p>
 
-            <form action="" method="POST">
+            <form action="" method="POST" autocomplete="off">
 
                 <input 
                     type="text" 
