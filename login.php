@@ -99,7 +99,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </button>
 
             </form>
-
+            <a href ="register.php" class ="register-btn">Registrarse</a>
+            <a href ="index.php" class ="register-btn">Inicio</a>
         </div>
 
     </section>
