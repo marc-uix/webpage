@@ -34,6 +34,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta charset="UTF-8"> 
     <title>web-page-main</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/mainweb.css?v=<?php echo time(); ?>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -52,8 +53,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="profile.php" class="btn">Perfil</a>
     </div>
     <div class="header-top">
-        <h1 class="title">impresoras 3d</h1>
-        <p class="logo">Mi Proyecto</p>
+        <h1 class="title">PROYECTOS</h1>
+        <p class="logo">centro de proyectos</p>
     </div>
     <nav class="nav-links">
         <a href="index.php" class="btn">Inicio</a>
@@ -63,24 +64,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </header>
 <section class="main-content">
 
-    <h2>Productos</h2>
+    <h2>Proyectos</h2>
 
     <div class="products">
 
         <div class="product-card">
             <h3>Producto 1</h3>
             <p>Descripción del producto</p>
+            <button class="hero-buy-btn">Revisar</button>
         </div>
 
         <div class="product-card">
             <h3>Producto 2</h3>
             <p>Descripción del producto</p>
+            <button class="hero-buy-btn">Revisar</button>
         </div>
 
         <div class="product-card">
             <h3>Producto 3</h3>
             <p>Descripción del producto</p>
-            <button class="hero-buy-btn">Comprar</button>
+            <button class="hero-buy-btn">Revisar</button>
         </div>
 
     </div>
