@@ -49,9 +49,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
  
     <header class="header-container">
-         <div class="profile">
-        <a href="profile.php" class="btn">Perfil</a>
-    </div>
+         <button class="menu-toggle">
+        ☰
+        </button>
+    <aside class="sidebar">
+        </aside>
+    <div class="overlay"></div>
     <div class="header-top">
         <h1 class="title">PROYECTOS</h1>
         <p class="logo">centro de proyectos</p>
@@ -69,20 +72,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="products">
 
         <div class="product-card">
-            <h3>Producto 1</h3>
-            <p>Descripción del producto</p>
+            <h3>Proyecto 1</h3>
+            <img src="css/images/bg.jpg" alt="Proyecto 1">
+            <p>Descripción del proyecto</p>
             <button class="hero-buy-btn">Revisar</button>
         </div>
 
         <div class="product-card">
-            <h3>Producto 2</h3>
-            <p>Descripción del producto</p>
+            <h3>Proyecto 2</h3>
+            <img src="css/images/bg.jpg" alt="Proyecto 2">
+            <p>Descripción del proyecto</p>
             <button class="hero-buy-btn">Revisar</button>
         </div>
 
         <div class="product-card">
-            <h3>Producto 3</h3>
-            <p>Descripción del producto</p>
+            <h3>Proyecto 3</h3>
+            <img src="css/images/bg.jpg" alt="Proyecto 3">
+            <p>Descripción del proyecto</p>
             <button class="hero-buy-btn">Revisar</button>
         </div>
 
